@@ -7,7 +7,7 @@ from keep_alive import keep_alive
 keep_alive()
 
 # قراءة التوكن من متغير البيئة
-TOKEN = os.getenv("NzAwMTA3NzIwODY2Mzk4MzM5.GyT5hY.LNOxE3pAj0VbsaSeoD9SvLuzLsU_xLh4tXHVsw")
+TOKEN = os.getenv(""DISCORD_TOKEN")
 
 # إعداد البوت
 intents = discord.Intents.default()
